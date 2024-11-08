@@ -1,0 +1,84 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.contenedorCalc{
+    width: 430px;
+    height: 520px;
+    border-radius: 1rem;
+    background-color: rgb(235, 188, 188);
+    border: 2px ridge black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+}
+
+.pantalla{
+    width: 68.3vh;
+    height: 22vh;
+    background-color: rgb(255, 144, 144);
+    border-radius: 0.9rem;
+    border-bottom: 2px ridge black;
+    border-left: 2px ridge black;
+    border-right: 2px ridge black;
+    text-align: center;
+    align-content: center;
+}
+
+#numeros{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 18px;
+}
+
+#result{
+    width: 87%;
+    height: 60%;
+    border-radius: 1rem;
+    border: 2px ridge black;
+    color: black;
+    font-size: 45px;
+    padding-left: 15px;
+}
+
+.boton{
+    width: 80px;
+    height:55px ;
+    text-align: center;
+    border: 2px outset black;
+    border-radius: 0.5rem;
+    font-size: 45px;
+}
+
+.boton:hover{
+    background-color: rgb(192, 203, 237);
+}
+
+#del{
+    font-size: 38px;
+}
+#ce{
+    font-size: 38px;
+    background-color: rgb(255, 200, 129);
+}
+#cuadrado{
+    font-size: 38px;
+}
+#on{
+    font-size: 38px;
+    background-color: rgb(255, 200, 129);
+}
+#ce:hover{
+    background-color: rgb(210, 164, 104);
+}
+#on:hover{
+    background-color: rgb(210, 164, 104);
+}
